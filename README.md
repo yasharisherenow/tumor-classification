@@ -41,23 +41,21 @@ Final test F1 score: **0.9937**
 
 ## 🧠 Sample Prediction Output
 
-Here’s a sample visualization showing the model’s prediction on an unseen MRI image:
+Here’s a sample visualization of the model’s prediction on an unseen MRI:
 
-![Sample Prediction](https://raw.githubusercontent.com/yasharisherenow/tumor-classification/main/outputs/pred_4_Tr-pi_0998_jpg.rf.49b593ee550ef711367164efc882cef1.jpg)
+![Sample Prediction](https://raw.githubusercontent.com/yasharisherenow/tumor-classification/main/assets/pred_4_Tr-pi_0998_jpg.rf.49b593ee550ef711367164efc882cef1.jpg)
 
 ---
 
-## 📊 Confusion Matrices by Tumor Class
-
-To understand per-class performance, here are the confusion matrices for each label:
+## 📊 Confusion Matrices (Per Tumor Class)
 
 | Glioma | Meningioma |
 |--------|------------|
-| ![Glioma CM](https://raw.githubusercontent.com/yasharisherenow/tumor-classification/main/outputs/cm_glioma.png) | ![Meningioma CM](https://raw.githubusercontent.com/yasharisherenow/tumor-classification/main/outputs/cm_meningioma.png) |
+| ![CM Glioma](https://raw.githubusercontent.com/yasharisherenow/tumor-classification/main/assets/cm_glioma.png) | ![CM Meningioma](https://raw.githubusercontent.com/yasharisherenow/tumor-classification/main/assets/cm_meningioma.png) |
 
 | No Tumor | Pituitary |
 |----------|-----------|
-| ![No Tumor CM](https://raw.githubusercontent.com/yasharisherenow/tumor-classification/main/outputs/cm_no-tumor.png) | ![Pituitary CM](https://raw.githubusercontent.com/yasharisherenow/tumor-classification/main/outputs/cm_pituitary.png) |
+| ![CM No Tumor](https://raw.githubusercontent.com/yasharisherenow/tumor-classification/main/assets/cm_no-tumor.png) | ![CM Pituitary](https://raw.githubusercontent.com/yasharisherenow/tumor-classification/main/assets/cm_pituitary.png) |
 
 ---
 

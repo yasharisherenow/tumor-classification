@@ -146,6 +146,7 @@ Developed using PyTorch for medical image analysis and deep learning exploration
 
 ---
 
+
 ## License
 
 This project is intended for research and educational use only. Not validated for clinical or diagnostic purposes. Use responsibly.

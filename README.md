@@ -39,7 +39,25 @@ The classification task is multi-label, allowing a single image to be associated
 
 Final test F1 score: **0.9937**
 
-Confusion matrices and misclassified image visualizations are saved to the `outputs/` directory.
+## 🧠 Sample Prediction Output
+
+Here’s a sample visualization showing the model’s prediction on an unseen MRI image:
+
+![Sample Prediction](https://raw.githubusercontent.com/yasharisherenow/tumor-classification/main/outputs/pred_4_Tr-pi_0998_jpg.rf.49b593ee550ef711367164efc882cef1.jpg)
+
+---
+
+## 📊 Confusion Matrices by Tumor Class
+
+To understand per-class performance, here are the confusion matrices for each label:
+
+| Glioma | Meningioma |
+|--------|------------|
+| ![Glioma CM](https://raw.githubusercontent.com/yasharisherenow/tumor-classification/main/outputs/cm_glioma.png) | ![Meningioma CM](https://raw.githubusercontent.com/yasharisherenow/tumor-classification/main/outputs/cm_meningioma.png) |
+
+| No Tumor | Pituitary |
+|----------|-----------|
+| ![No Tumor CM](https://raw.githubusercontent.com/yasharisherenow/tumor-classification/main/outputs/cm_no-tumor.png) | ![Pituitary CM](https://raw.githubusercontent.com/yasharisherenow/tumor-classification/main/outputs/cm_pituitary.png) |
 
 ---
 
